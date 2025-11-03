@@ -8,37 +8,98 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### React
 - **Create React App**: https://create-react-app.dev/
+  ```bash
+  npx create-react-app my-app
+  ```
+
 - **Vite (React template)**: https://vitejs.dev/guide/#scaffolding-your-first-vite-project
-  - Command: `npm create vite@latest my-app -- --template react`
-  - React + TypeScript: `npm create vite@latest my-app -- --template react-ts`
+  ```bash
+  npm create vite@latest my-app -- --template react
+  ```
+
+- **Vite + React + TypeScript**:
+  ```bash
+  npm create vite@latest my-app -- --template react-ts
+  ```
 
 ### Vue.js
 - **Vue CLI**: https://cli.vuejs.org/
-- **Vite (Vue template)**: `npm create vite@latest my-app -- --template vue`
+  ```bash
+  npm install -g @vue/cli
+  vue create my-app
+  ```
+
+- **Vite (Vue template)**:
+  ```bash
+  npm create vite@latest my-app -- --template vue
+  ```
+
 - **create-vue**: https://github.com/vuejs/create-vue
+  ```bash
+  npm create vue@latest
+  ```
 
 ### Angular
 - **Angular CLI**: https://angular.io/cli
+  ```bash
+  npm install -g @angular/cli
+  ng new my-app
+  ```
 
 ### Svelte
 - **SvelteKit**: https://kit.svelte.dev/
-- **Vite (Svelte template)**: `npm create vite@latest my-app -- --template svelte`
+  ```bash
+  npm create svelte@latest my-app
+  ```
+
+- **Vite (Svelte template)**:
+  ```bash
+  npm create vite@latest my-app -- --template svelte
+  ```
 
 ### Solid.js
 - **Official templates**: https://www.solidjs.com/guides/getting-started
-- **Vite (Solid template)**: `npm create vite@latest my-app -- --template solid`
+  ```bash
+  npx degit solidjs/templates/js my-app
+  ```
+
+- **Vite (Solid template)**:
+  ```bash
+  npm create vite@latest my-app -- --template solid
+  ```
 
 ### Preact
 - **preact-cli**: https://preactjs.com/cli/
-- **Vite (Preact template)**: `npm create vite@latest my-app -- --template preact`
+  ```bash
+  npx preact-cli create default my-app
+  ```
+
+- **Vite (Preact template)**:
+  ```bash
+  npm create vite@latest my-app -- --template preact
+  ```
 
 ### Lit
 - **Starter kits**: https://lit.dev/docs/tools/starter-kits/
-- **Vite (Lit template)**: `npm create vite@latest my-app -- --template lit`
+  ```bash
+  npm init @open-wc
+  ```
+
+- **Vite (Lit template)**:
+  ```bash
+  npm create vite@latest my-app -- --template lit
+  ```
 
 ### Vanilla JavaScript/TypeScript
-- **Vite**: `npm create vite@latest my-app -- --template vanilla`
-- **Vite + TypeScript**: `npm create vite@latest my-app -- --template vanilla-ts`
+- **Vite (Vanilla JS)**:
+  ```bash
+  npm create vite@latest my-app -- --template vanilla
+  ```
+
+- **Vite + TypeScript**:
+  ```bash
+  npm create vite@latest my-app -- --template vanilla-ts
+  ```
 
 ---
 
@@ -46,36 +107,52 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### Next.js (React)
 - **create-next-app**: https://nextjs.org/docs/getting-started/installation
-- Command: `npx create-next-app@latest`
+  ```bash
+  npx create-next-app@latest my-app
+  ```
 
 ### Nuxt (Vue)
 - **Documentation**: https://nuxt.com/docs/getting-started/installation
-- Command: `npx nuxi init my-app`
+  ```bash
+  npx nuxi init my-app
+  ```
 
 ### Remix (React)
 - **create-remix**: https://remix.run/docs/en/main/start/quickstart
-- Command: `npx create-remix@latest`
+  ```bash
+  npx create-remix@latest my-app
+  ```
 
 ### Astro (Multi-framework)
 - **Documentation**: https://astro.build/
-- Command: `npm create astro@latest`
-- Supports: React, Vue, Svelte, Solid, Preact, Lit
+  ```bash
+  npm create astro@latest my-app
+  ```
+  - Supports: React, Vue, Svelte, Solid, Preact, Lit
 
 ### SvelteKit (Svelte)
 - **Documentation**: https://kit.svelte.dev/
-- Command: `npm create svelte@latest`
+  ```bash
+  npm create svelte@latest my-app
+  ```
 
 ### Qwik / Qwik City
 - **Documentation**: https://qwik.builder.io/docs/getting-started/
-- Command: `npm create qwik@latest`
+  ```bash
+  npm create qwik@latest
+  ```
 
 ### Analog (Angular)
 - **Documentation**: https://analogjs.org/docs/getting-started
-- Command: `npm create analog@latest`
+  ```bash
+  npm create analog@latest
+  ```
 
 ### SolidStart (Solid.js)
 - **Documentation**: https://start.solidjs.com/getting-started/what-is-solidstart
-- Command: `npm create solid@latest`
+  ```bash
+  npm create solid@latest
+  ```
 
 ---
 
@@ -83,34 +160,54 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### Express.js (Node.js)
 - **express-generator**: https://expressjs.com/en/starter/generator.html
-- Command: `npx express-generator`
+  ```bash
+  npx express-generator my-app
+  ```
 
 ### NestJS (Node.js/TypeScript)
 - **Documentation**: https://docs.nestjs.com/cli/overview
-- Command: `npm i -g @nestjs/cli && nest new project-name`
+  ```bash
+  npm i -g @nestjs/cli
+  nest new project-name
+  ```
 
 ### Fastify (Node.js)
 - **fastify-cli**: https://github.com/fastify/fastify-cli
-- Command: `npm install --global fastify-cli && fastify generate myapp`
+  ```bash
+  npm install --global fastify-cli
+  fastify generate myapp
+  ```
 
 ### Koa (Node.js)
 - **koa-generator**: https://github.com/17koa/koa-generator
+  ```bash
+  npx koa-generator my-app
+  ```
 
 ### Adonis.js (Node.js/TypeScript)
 - **Documentation**: https://docs.adonisjs.com/guides/getting-started/installation
-- Command: `npm init adonisjs@latest`
+  ```bash
+  npm init adonisjs@latest my-app
+  ```
 
 ### Hono (Edge/Node.js)
 - **Documentation**: https://hono.dev/getting-started/basic
-- Command: `npm create hono@latest`
+  ```bash
+  npm create hono@latest my-app
+  ```
 
 ### tRPC (TypeScript RPC)
 - **Documentation**: https://trpc.io/docs/quickstart
-- Command: `npm create t3-app@latest` (with Next.js)
+  ```bash
+  npm create t3-app@latest
+  ```
+  - Includes Next.js + tRPC + Tailwind + Prisma
 
 ### Elysia (Bun)
 - **Documentation**: https://elysiajs.com/quick-start.html
-- Command: `bun create elysia my-app`
+  ```bash
+  bun create elysia my-app
+  ```
 
 ---
 
@@ -118,19 +215,31 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### Django
 - **Documentation**: https://docs.djangoproject.com/en/stable/intro/tutorial01/
-- Command: `django-admin startproject myproject`
+  ```bash
+  pip install django
+  django-admin startproject myproject
+  ```
 
 ### FastAPI
 - **Documentation**: https://fastapi.tiangolo.com/tutorial/
-- Command: `pip install fastapi[all]` (no official scaffolder, cookiecutters available)
+  ```bash
+  pip install fastapi[all]
+  ```
+  - No official scaffolder (cookiecutters available)
 
 ### Flask
 - **Documentation**: https://flask.palletsprojects.com/en/stable/cli/
-- Command: `flask create my-app` (Flask 2.2+)
+  ```bash
+  pip install flask
+  flask --app my-app init
+  ```
 
 ### Litestar (formerly Starlite)
 - **Documentation**: https://docs.litestar.dev/latest/
-- Command: `pip install litestar[cli] && litestar init`
+  ```bash
+  pip install litestar[cli]
+  litestar init
+  ```
 
 ---
 
@@ -138,7 +247,10 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### Ruby on Rails
 - **Documentation**: https://guides.rubyonrails.org/getting_started.html
-- Command: `rails new myapp`
+  ```bash
+  gem install rails
+  rails new myapp
+  ```
 
 ---
 
@@ -146,11 +258,15 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### Laravel
 - **Documentation**: https://laravel.com/docs/installation
-- Command: `composer create-project laravel/laravel myapp`
+  ```bash
+  composer create-project laravel/laravel myapp
+  ```
 
 ### Symfony
 - **Documentation**: https://symfony.com/doc/current/setup.html
-- Command: `symfony new my_project_name`
+  ```bash
+  symfony new my_project_name
+  ```
 
 ---
 
@@ -158,24 +274,35 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### React Native
 - **React Native CLI**: https://reactnative.dev/docs/environment-setup
-- Command: `npx react-native init MyApp`
+  ```bash
+  npx react-native init MyApp
+  ```
 
 ### Expo (React Native)
 - **Documentation**: https://docs.expo.dev/get-started/create-a-project/
-- Command: `npx create-expo-app@latest`
+  ```bash
+  npx create-expo-app@latest my-app
+  ```
 
 ### Flutter
 - **Documentation**: https://docs.flutter.dev/get-started/install
-- Command: `flutter create myapp`
+  ```bash
+  flutter create myapp
+  ```
 
 ### Ionic
 - **Documentation**: https://ionicframework.com/docs/cli
-- Command: `npm install -g @ionic/cli && ionic start`
-- Supports: React, Vue, Angular
+  ```bash
+  npm install -g @ionic/cli
+  ionic start my-app
+  ```
+  - Supports: React, Vue, Angular
 
 ### Tauri (Desktop/Mobile with web tech)
 - **Documentation**: https://tauri.app/v1/guides/getting-started/setup/
-- Command: `npm create tauri-app@latest`
+  ```bash
+  npm create tauri-app@latest
+  ```
 
 ---
 
@@ -183,24 +310,30 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### Vite
 - **Documentation**: https://vitejs.dev/guide/
-- Command: `npm create vite@latest`
-- **Templates**: vanilla, vanilla-ts, react, react-ts, vue, vue-ts, preact, preact-ts, lit, lit-ts, svelte, svelte-ts, solid, solid-ts
+  ```bash
+  npm create vite@latest
+  ```
+  - **Templates**: vanilla, vanilla-ts, react, react-ts, vue, vue-ts, preact, preact-ts, lit, lit-ts, svelte, svelte-ts, solid, solid-ts
 
 ### Turbo (Monorepo)
 - **Documentation**: https://turbo.build/repo/docs/getting-started/create-new
-- Command: `npx create-turbo@latest`
+  ```bash
+  npx create-turbo@latest
+  ```
 
 ### Nx (Monorepo)
 - **Documentation**: https://nx.dev/getting-started/intro
-- Command: `npx create-nx-workspace@latest`
+  ```bash
+  npx create-nx-workspace@latest
+  ```
 
 ### Parcel
 - **Documentation**: https://parceljs.org/getting-started/webapp/
-- No official scaffolder (zero-config bundler)
+  - No official scaffolder (zero-config bundler)
 
 ### Webpack
 - **Documentation**: https://webpack.js.org/guides/getting-started/
-- No official scaffolder (manual setup or framework-specific)
+  - No official scaffolder (manual setup or framework-specific)
 
 ---
 
@@ -208,19 +341,29 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### T3 Stack (Next.js + tRPC + Tailwind + Prisma)
 - **Documentation**: https://create.t3.gg/
-- Command: `npm create t3-app@latest`
+  ```bash
+  npm create t3-app@latest
+  ```
 
 ### RedwoodJS (React + GraphQL)
 - **Documentation**: https://redwoodjs.com/docs/quick-start
-- Command: `yarn create redwood-app my-app`
+  ```bash
+  yarn create redwood-app my-app
+  ```
 
 ### Blitz.js (Next.js based)
 - **Documentation**: https://blitzjs.com/docs/get-started
-- Command: `npm install -g blitz && blitz new myApp`
+  ```bash
+  npm install -g blitz
+  blitz new myApp
+  ```
 
 ### Wasp (React + Node.js DSL)
 - **Documentation**: https://wasp-lang.dev/docs
-- Command: `curl -sSL https://get.wasp-lang.dev/installer.sh | sh`
+  ```bash
+  curl -sSL https://get.wasp-lang.dev/installer.sh | sh
+  wasp new my-app
+  ```
 
 ---
 
@@ -228,11 +371,24 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 
 ### Electron
 - **Documentation**: https://www.electronjs.org/docs/latest/tutorial/quick-start
-- Various boilerplates: electron-forge, electron-builder
+  ```bash
+  npm install --save-dev electron
+  ```
+  - Various boilerplates available:
+    - **electron-forge**:
+      ```bash
+      npm init electron-app@latest my-app
+      ```
+    - **electron-react-boilerplate**:
+      ```bash
+      git clone --depth 1 --branch main https://github.com/electron-react-boilerplate/electron-react-boilerplate.git my-app
+      ```
 
 ### Tauri
 - **Documentation**: https://tauri.app/
-- Command: `npm create tauri-app@latest`
+  ```bash
+  npm create tauri-app@latest
+  ```
 
 ---
 
