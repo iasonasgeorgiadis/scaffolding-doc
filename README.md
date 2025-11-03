@@ -2,6 +2,8 @@
 
 A comprehensive reference guide for framework scaffolding tools and their official documentation.
 
+---
+
 ## Frontend Frameworks & Scaffolding
 
 ### React
@@ -99,6 +101,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   npm create vite@latest my-app -- --template vanilla-ts
   ```
 
+---
+
 ## Full-Stack/Meta Frameworks
 
 ### Next.js (React)
@@ -149,6 +153,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   ```bash
   npm create solid@latest
   ```
+
+---
 
 ## Backend Frameworks
 
@@ -203,6 +209,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   bun create elysia my-app
   ```
 
+---
+
 ## Python
 
 ### Django
@@ -233,6 +241,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   litestar init
   ```
 
+---
+
 ## Ruby
 
 ### Ruby on Rails
@@ -241,6 +251,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   gem install rails
   rails new myapp
   ```
+
+---
 
 ## PHP
 
@@ -255,6 +267,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   ```bash
   symfony new my_project_name
   ```
+
+---
 
 ## Mobile
 
@@ -290,6 +304,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   npm create tauri-app@latest
   ```
 
+---
+
 ## Build Tools & Universal
 
 ### Vite
@@ -319,6 +335,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
 - **Documentation**: https://webpack.js.org/guides/getting-started/
   - No official scaffolder (manual setup or framework-specific)
 
+---
+
 ## Full-Stack Starter Kits
 
 ### T3 Stack (Next.js + tRPC + Tailwind + Prisma)
@@ -347,6 +365,8 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   wasp new my-app
   ```
 
+---
+
 ## Desktop
 
 ### Electron
@@ -370,11 +390,15 @@ A comprehensive reference guide for framework scaffolding tools and their offici
   npm create tauri-app@latest
   ```
 
+---
+
 ## Notes
 
 - Most modern frameworks support TypeScript variants
 - Vite is becoming the standard build tool for many frameworks
 - Many frameworks offer interactive CLI prompts for additional configuration
 - Check official documentation for the latest installation methods and options
+
+---
 
 **Last Updated**: November 2025
